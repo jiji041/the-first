@@ -1,0 +1,207 @@
+
+body{
+   background-image:url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    background-repeat:   no-repeat;
+    background-size:    cover; 
+    background-position: center  ; 
+    height: 97ex;
+    width: 100%;
+    height: 1000px; 
+    
+}
+.middle {
+  width: 50%;
+  font-size:40px ;
+  color: 404040;
+
+margin-top: 100px;
+}
+#mar{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+/*singup*/
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.add_comment{
+  
+  margin-bottom: 20px;
+  margin-left: 30%;
+  margin-top: 200px;
+  font-size:20px;
+
+  
+}
+
+#comment{
+  margin-left: 5%;
+font-size:30px;
+
+
+}
+/*photos*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*background for photos*/
+.back{
+  background-color:  	#E8E8E8;
+}
+/*my cv*/
+div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    margin-bottom: 10px
+    }
+
+
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #4474bb;
+}
+
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    margin-right: -10px;
+    margin-left:1%;
+    height: auto;
+    width: 99%;
+    background-color:#bec1c0;
+    
+ 
+}
+
+    
+
+    
+h3
+{
+    text-decoration: underline;
+    color:#4474bb;
+    }
+
+
+
+#course-name
+{
+    font-weight:bold;
+    }
